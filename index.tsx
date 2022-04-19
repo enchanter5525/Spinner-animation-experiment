@@ -18,23 +18,13 @@ class App extends Component<AppProps, AppState> {
 
   render() {
     return (
-      <div>
-        <Hello name={this.state.name} />
-        <p>
-          Start editing to see some magic happen :)
-        </p>
-        <div className="parent">
-          <div className="child">
+      <div className="loading-wrapper">
+        <div className="loading">
+          <div className="loading innerloader">
 
           </div>
-      </div>
-      <hr/>
-
-      <div className="parent2">
-          <div className="child2">
-
-          </div>
-      </div>
+        </div>
+       
       </div>
     );
   }
