@@ -19,27 +19,15 @@ class App extends Component<AppProps, AppState> {
 
   render() {
     return (
-     <div className="expandable-container">
-       <input type='checkbox' id="check-input" className="check-input"/>
-       <label htmlFor="check-input" className="expandable">
-        <header className="header-container">
-          <div className="header">
-            <h4 className="title">Expandable Widget</h4>
-            <span className="subtitle">HTML and CSS</span>
+     <div>
+       <input type="text" list="my-list"/>
+       <datalist id="my-list">
+         <option value="java"/>
 
-          </div>
-          <span className="icon"></span>
-        </header>
-        <p className="content">
-          lorem ipsum df fdjhfjdf dfhdhfm fdhjfdnf fdfkdf dfdf fdnfkdjfkd dsfhdjfldshfldshfldshilfufg;ahglfdughlfgh;hg;girh gr girgirg g righ ir gir girgirhgi r girg irg ior griog irg iorg ior gior gjior goi giro ghuirghuiaggr;h g;re gr g
-          gr grigirg ior grg
-          rg rr;gr'
-          
-        </p>
-       </label>
-
-     </div>
-    );
+         <option value="javascript"/>
+         <option value="c"/>
+         </datalist>
+         </div>)
   }
 }
 
