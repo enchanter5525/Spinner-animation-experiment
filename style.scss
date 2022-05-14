@@ -1,3 +1,36 @@
 .react-calendar {
-  
+  & > .react-calendar__navigation {
+    background-color: #000000;
+
+    button {
+      color: #fff;
+      &:enabled:focus {
+        background-color: #000000;
+      }
+      &:enabled:hover {
+        background-color: #000000;
+      }
+      &:disabled {
+        opacity: 0.5;
+        background-color: #000000;
+
+      }
+    }
+    // .react-calendar__navigation.button:enabled:hover {
+    // }
+    // .react-calendar__navigation.button:enabled:focus {
+    //   background-color: #000000;
+    // }
+  }
+  // .react-calendar__month-view__days__day {
+  //   background-color: #000000;
+  //   color: #fff;
+  // }
+  .react-calendar__tile {
+    background-color: #000000;
+    color: #fff;
+    &:disabled {
+      opacity: 0.5;
+    }
+  }
 }
