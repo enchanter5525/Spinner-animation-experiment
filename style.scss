@@ -13,7 +13,6 @@
       &:disabled {
         opacity: 0.5;
         background-color: #000000;
-
       }
     }
     // .react-calendar__navigation.button:enabled:hover {
@@ -31,6 +30,7 @@
     color: #fff;
     &:disabled {
       opacity: 0.5;
+      background-color: #000000;
     }
     &:enabled:hover {
       background-color: #000000;
